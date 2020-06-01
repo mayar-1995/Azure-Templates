@@ -1,14 +1,7 @@
 # Repo: mayar-1995/Azure-Templates
 # File: base-template.yml
-parameters:
-- name: 'vmImage'
-  default: 'ubuntu 16.04'
-  type: string
-
 jobs:
 - job: Build
-  pool:
-    vmImage: ${{ parameters.vmImage }}
   steps:
   - script: npm install
   - script: npm test
