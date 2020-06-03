@@ -4,9 +4,9 @@ jobs:
 - job: Build
 steps:
 #  - script: echo "Hi"
-#- task: CmdLine@2
- # inputs:
-    - script: |
+- task: CmdLine@2
+ inputs:
+     script: |
       ls
       pwd
       sudo apt-get install groovy
