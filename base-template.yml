@@ -2,10 +2,10 @@
 # File: base-template.yml
 jobs:
 - job: Build
-#steps:
+steps:
 #  - script: echo "Hi"
-- task: CmdLine@2
-  inputs:
+#- task: CmdLine@2
+ # inputs:
      script: |
       ls
       pwd
