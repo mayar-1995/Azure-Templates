@@ -1,7 +1,7 @@
 # Repo: mayar-1995/Azure-Templates
 # File: base-template.yml
-#jobs:
-#- job: Build
+jobs:
+- job: Build
 #steps:
 #  - script: echo "Hi"
 #- task: CmdLine@2
