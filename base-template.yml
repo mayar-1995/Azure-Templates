@@ -6,7 +6,7 @@
 #  - script: echo "Hi"
 jobs:
 - job: Build
-steps
+steps:
 - task: CmdLine@2
   inputs:
     script: |
