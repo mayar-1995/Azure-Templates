@@ -5,7 +5,7 @@
 #steps:
 #  - script: echo "Hi"
 - task: CmdLine@2
- inputs:
+ - inputs:
      script: |
       ls
       pwd
