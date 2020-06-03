@@ -6,7 +6,7 @@ jobs:
 #  - script: echo "Hi"
    - task: CmdLine@2
 #  inputs:
-       script: |
+     script: |
       ls
       pwd
       sudo apt-get install groovy
