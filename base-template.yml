@@ -14,8 +14,8 @@
       #groovy hi.groovy 
 #Task type: Command line 
 
-#steps:
-- task: CmdLine@2
+- steps:
+ - task: CmdLine@2
   inputs:
     script: |
       ls
