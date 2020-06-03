@@ -1,12 +1,12 @@
 # Repo: mayar-1995/Azure-Templates
 # File: base-template.yml
-jobs:
-- job: Build
-  steps:
+#jobs:
+#- job: Build
+ # steps:
 #  - script: echo "Hi"
- #  - task: CmdLine@2
-#  inputs:
-    - script: |
+- task: CmdLine@2
+  inputs:
+     script: |
       ls
       pwd
       sudo apt-get install groovy
