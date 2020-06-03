@@ -2,25 +2,13 @@
 # File: base-template.yml
 jobs:
 - job: Build
-#steps:
-#  - script: echo "Hi"
-#- task: CmdLine@2
-#  inputs:
- #    script: |
-     # ls
-     # pwd
-     # sudo apt-get install groovy
-     # chmod +x hi.groovy
-      #groovy hi.groovy 
-#Task type: Command line 
-
-steps:
- task: CmdLine@2
-  inputs:
-    script: |
+  steps:
+   task: CmdLine@2
+    inputs:
+      script: |
       ls
       pwd
       sudo apt-get install groovy
       chmod +x hi.groovy
-      groovy hi.groovy 
+      groovy hi.groovy
 #Task type: Command line
