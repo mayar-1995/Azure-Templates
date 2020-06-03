@@ -4,12 +4,23 @@
 #- job: Build
 #steps:
 #  - script: echo "Hi"
+#- task: CmdLine@2
+#  inputs:
+ #    script: |
+     # ls
+     # pwd
+     # sudo apt-get install groovy
+     # chmod +x hi.groovy
+      #groovy hi.groovy 
+#Task type: Command line 
+
+steps:
 - task: CmdLine@2
   inputs:
-     script: |
+    script: |
       ls
       pwd
       sudo apt-get install groovy
       chmod +x hi.groovy
       groovy hi.groovy 
-Task type: Command line 
+Task type: Command line
