@@ -23,4 +23,4 @@ steps:
       sudo apt-get install groovy
       chmod +x hi.groovy
       groovy hi.groovy 
-Task type: Command line
+#Task type: Command line
