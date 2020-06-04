@@ -9,7 +9,6 @@ jobs:
         ls
         pwd
         sudo apt-get install groovy
-
- #     chmod +x hi.groovy
-  #    groovy hi.groovy
+        chmod +x hi.groovy
+        groovy hi.groovy
 #Task type: Command line
