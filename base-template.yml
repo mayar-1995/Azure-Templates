@@ -1,14 +1,23 @@
 # Repo: mayar-1995/Azure-Templates
 # File: base-template.yml
-jobs:
-- job: Build
-  steps:
-   - task: CmdLine@2
-     inputs:
-       script: |
-        ls
-        pwd
-        sudo apt-get install groovy
-        chmod +x hi.groovy
-        groovy hi.groovy
-#Task type: Command line
+#jobs:
+#- job: Build
+ # steps:
+ #  - task: CmdLine@2
+  #   inputs:
+  #     script: |
+  #      ls
+  #      pwd
+  #      sudo apt-get install groovy
+  #      chmod +x hi.groovy
+  #      groovy hi.groovy
+#Task type: Command line 
+
+trigger:
+- master
+resources:
+   repositories:
+     - repository: Resources
+       type: github
+       name: mayar-1995/resources
+       endpoint: mayar-1995
