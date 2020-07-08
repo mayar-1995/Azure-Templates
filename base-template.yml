@@ -1,5 +1,5 @@
-Repo: mayar-1995/Azure-Templates
-File: base-template.yml
+#Repo: mayar-1995/Azure-Templates
+#File: base-template.yml
 jobs:
 - job: Build
   steps:
